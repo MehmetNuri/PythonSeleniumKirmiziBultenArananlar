@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "arananlar"
+version = "0.1.0"
+description = ""
+authors = ["Mehmet Nuri ÖZTÜRK <mnozturk@uni-yaz.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.10.0"
+chromedriver-autoinstaller = "^0.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
